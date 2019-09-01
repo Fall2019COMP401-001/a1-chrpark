@@ -53,7 +53,7 @@ public class A1Adept {
 						double cost = Double.parseDouble(items[m+1]);
 						int quantity = Integer.parseInt(list[n]);
 						total = total + cost*quantity;
-						finaltotal = String.format("%.2f", total);
+						finaltotal = String.valueOf(total);
 					}
 					else {
 						continue;
